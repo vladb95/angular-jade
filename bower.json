@@ -1,0 +1,23 @@
+{
+  "name": "angular-jade",
+  "homepage": "https://github.com/vladb95/angular-jade",
+  "description": "test application for angular with jade",
+  "main": "index.html",
+  "keywords": [
+    "angularjs",
+    "jade",
+    "gulp",
+    "gulp-jade"
+  ],
+  "authors": [
+    "vladb95"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
