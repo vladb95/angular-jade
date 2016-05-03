@@ -1,9 +1,7 @@
 var gulp      = require('gulp'),
     gulp_jade = require('gulp-jade');
 
-gulp.task('default', function(){
-  console.log('task test');
-});
+gulp.task('default', ['index-jade', 'jade']);
 
 gulp.task('jade', function(){
   gulp.src(['./jade/*.jade', '!jade/index.jade'])
